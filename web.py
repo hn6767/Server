@@ -2,7 +2,7 @@ from flask import Flask
 from game import exput
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/index')
 def hello():
   str = "Hello there"
   return str
