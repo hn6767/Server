@@ -12,3 +12,5 @@ def hello():
 def main1(name):
   return exput(name)
   
+if __name__ =  '__main':
+  app.run(debug=True host=0.0.0.0)
